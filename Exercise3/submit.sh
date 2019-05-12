@@ -8,7 +8,7 @@
 
 
 #SBATCH --job-name=PS4_Exercise3
-#SBATCH --output=output/PS_Exercise3_1000000_8.out
+#SBATCH --output=output/PS_Exercise3_100000_8.out
 #SBATCH --error=openmp_test.err
 
 #SBATCH --partition=intq

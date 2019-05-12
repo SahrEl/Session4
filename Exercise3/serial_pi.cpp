@@ -5,7 +5,7 @@
 
 int main()
 {
-    unsigned niter = 1000000;
+    unsigned niter = 100000;
     // double x,y;
     int i;
     unsigned count=0;
