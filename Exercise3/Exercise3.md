@@ -8,6 +8,6 @@ We are asked to experiment with the number of random numbers created and to run 
 
 Here is how the execution time varies:
 
+![alt text](exectime.png)
 
-
-**Note**: Execution outputs are stored in *output/*.
+**Note**: Execution outputs are stored in *Exercise3/output/*.
