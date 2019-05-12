@@ -6,13 +6,13 @@
 
 
 #SBATCH --job-name=bs-mpi
-#SBATCH --output=output/bs-mpi1000000_15.out
+#SBATCH --output=output/bs-mpi1000_16.out
 #SBATCH --error=bs-mpi.err
 #SBATCH --mail-type=BEGIN,END,DAIL
 
 # this job requests 2 cores. Cores can be selected from various nodes.
 
-#SBATCH --ntasks=15
+#SBATCH  --ntasks=16
 
 
 # there are many partitions on Alphacruncher and it is important to specify which
