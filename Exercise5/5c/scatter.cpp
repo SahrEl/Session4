@@ -14,18 +14,19 @@ int main(int argc, char *argv[])
         MPI_Finalize();
         exit(1);
     }
+    // If root process, fill the array with values
+    // the index value = index 
     if (rank==0) {
         for (i=0; i<size; i++) {
             senddata[i] = i;
-            // std::cout << senddata[i] << std::endl;
         }
     }
 
     /* scatter the value of senddata of rank 0 to receivedata of all ranks */
-    MPI_Scatter(&senddata[1], 20, MPI_INT,
-                     &receivedata , 20, MPI_INT, 0, MPI_COMM_WORLD);
-
-
+    // sends one element of senddata to each processes, therefore each process
+    // is supposed to receive an integer containing the process number (rank)
+    MPI_Scatter(&senddata, 1, MPI_INT,
+                     &receivedata , 1, MPI_INT, 0, MPI_COMM_WORLD);
 
     printf("I am rank %i and the value is %i\n", rank, receivedata);
     MPI_Finalize();

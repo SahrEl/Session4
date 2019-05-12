@@ -6,7 +6,7 @@
 
 
 #SBATCH --job-name=ps4_exercise5a
-#SBATCH --output=output/ps4_exercise5a_8.out
+#SBATCH --output=output/ps4_exercise5c_8.out
 #SBATCH --error=bs-mpi.err
 #SBATCH --mail-type=BEGIN,END,DAIL
 
