@@ -39,7 +39,7 @@ double gaussian_box_muller() {
 int main(int argc, char **argv) {
   int num_threads = omp_get_max_threads();
   // Parameters
-  unsigned num_sims = 100000;   // Number of simulated asset paths
+  unsigned num_sims = 10000;   // Number of simulated asset paths
   unsigned num_intervals = 100;  // Number of intervals for the asset path to be sampled
   double S = 100.0;  // Option price
   double K = 100.0;  // Strike price

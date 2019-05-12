@@ -73,7 +73,7 @@ double monte_carlo_put_price(const int& num_sims, const double& S, const double&
 int main(int argc, char **argv) {
 
   // Parameters
-  int num_sims = 10000000;   // Number of simulated asset paths
+  int num_sims = 100000;   // Number of simulated asset paths
   double S = 100.0;  // Option price
   double K = 100.0;  // Strike price
   double r = 0.05;   // Risk-free rate (5%)
@@ -96,6 +96,6 @@ int main(int argc, char **argv) {
 
   std::cout << "Call Price:      " << call << std::endl;
   std::cout << "Put Price:       " << put << std::endl;
-  std::cout << "Execution time:  " << time << std::endl;
+  std::cout << "Execution time:  " << time << " sec" << std::endl;
   return 0;
 }

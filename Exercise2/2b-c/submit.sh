@@ -7,8 +7,8 @@
 #SBATCH --time=00:01:00
 
 
-#SBATCH --job-name=PS4_Exercise2d
-#SBATCH --output=output/ps4_exercise2d_8.out
+#SBATCH --job-name=PS4-Exercise2b-c
+#SBATCH --output=output/ps4_exercise2b-c_10000.out
 #SBATCH --error=openmp_test.err
 
 #SBATCH --partition=intq
