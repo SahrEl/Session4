@@ -1,0 +1,9 @@
+MPI Processes  : 8
+Number of Paths: 100000
+Underlying:      100
+Strike:          100
+Risk-Free Rate:  0.05
+Volatility:      0.2
+Maturity:        1
+Asian     :      5.46804
+Time      :      0.057879

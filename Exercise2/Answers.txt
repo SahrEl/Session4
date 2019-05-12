@@ -1,0 +1,25 @@
+Author: Elena Pfefferlé
+Programming SS19 - Problem Set 4
+
+Exercise 2
+==========
+
+- slurm script -> submit_bs.sh
+
+- 10'000 sample points runtime : 2754 microseconds
+- 100'000 sample points runtime : 26268 microseconds
+
+Point C:
+--------
+
+Output of the code:
+    Number of Paths: 10000
+    Underlying:      100
+    Strike:          100
+    Risk-Free Rate:  0.05
+    Volatility:      0.2
+    Maturity:        1
+    Asian     :      5.53093
+    Time      :      239041
+
+Execution time 239041 micro seconds
