@@ -1,3 +1,4 @@
 *.exec
 compiling_error.txt
 .ipynb_checkpoints/
+*.err

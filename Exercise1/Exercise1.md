@@ -2,9 +2,11 @@
 ######  Programming SS 2019 - Problem Set 4
 Author: *Elena Pfefferlé*, *Pascal Schenk*, *Àlvaro Morales*
 
-### General:
+#### Problem:
 
 We are asked to calculate the theoretical maximum speed-up a code with 0.4% serial instructions could achieve with 100 CPUs.
+
+#### Resolution:
 
 If a program of size *W* has a serial component *Ws*, the speedup *S* of the program is
 
