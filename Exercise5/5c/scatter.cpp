@@ -1,3 +1,9 @@
+/**
+ Programming SS 2019 - Problem Set 4
+ Exercise 5c
+ Authors: Elena Pfefferlé, Pascal Schenk, Álvaro Morales
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <mpi.h>
@@ -15,7 +21,7 @@ int main(int argc, char *argv[])
         exit(1);
     }
     // If root process, fill the array with values
-    // the index value = index 
+    // the index value = index
     if (rank==0) {
         for (i=0; i<size; i++) {
             senddata[i] = i;
