@@ -1,2 +1,0 @@
-c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:\Users\PFEFFE~1\AppData\Local\Temp\ccr3uKJE.o:BS.cpp:(.text+0x28e): undefined reference to `omp_get_max_threads'
-collect2.exe: error: ld returned 1 exit status
