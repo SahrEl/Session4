@@ -1,6 +1,6 @@
 /**
  Programming SS 2019 - Problem Set 4
- Exercise 3d
+ Exercise 4
  Authors: Elena Pfefferlé, Pascal Schenk, Álvaro Morales
 */
 
@@ -10,7 +10,7 @@
 #include <omp.h>
 
 int main(void){
-    const int N = 100000000;
+    const int N = 500000000;
     int i;
     std::vector<double> a(N);
     std::vector<double> b(N);
