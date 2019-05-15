@@ -11,7 +11,7 @@
 
 int main()
 {
-    unsigned niter = 100000;
+    unsigned niter = 1000000;
     // double x,y;
     int i;
     unsigned count=0;
@@ -25,7 +25,7 @@ int main()
       {
         unsigned int myseed = omp_get_thread_num();
         double x,y,z;
-        #pragma omp for private(x,y,z,i) reduction(+:count) schedule(static,4)
+        #pragma omp for private(x,y,z,i) reduction(+:count) //schedule(static,4)
         for (int i=0; i < niter; i++)
         {
             //get random points
