@@ -1,3 +1,9 @@
+/**
+ Programming SS 2019 - Problem Set 4
+ Exercise 3d
+ Authors: Elena Pfefferlé, Pascal Schenk, Álvaro Morales
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
