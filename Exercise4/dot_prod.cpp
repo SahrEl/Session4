@@ -10,7 +10,7 @@
 #include <omp.h>
 
 int main(void){
-    const int N = 10000;
+    const int N = 100000000;
     int i;
     std::vector<double> a(N);
     std::vector<double> b(N);
@@ -21,14 +21,14 @@ int main(void){
     double time = -omp_get_wtime();
     #pragma omp parallel
     {
-        // parallel for loop, the index is divided in four
-        #pragma omp for // schedule(static,4)
+        // parallel for loop
+        #pragma omp for
         for(int i=0; i<N; i++){
             a[i] = 1./2.;
             b[i] = double(i+1);
         }
-        // parallel for loop, index divided in four, reduction on the sum
-        #pragma omp for reduction(+:dot) //schedule(static,4)
+        // parallel for loop, reduction on the sum
+        #pragma omp for reduction(+:dot) 
         for(int i=0; i<N; i++) {
             dot += a[i] * b[i];
         }
