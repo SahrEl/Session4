@@ -7,13 +7,13 @@ Author: *Elena Pfefferlé*, *Pascal Schenk*, *Àlvaro Morales*
 - Measured runtime for 10'000 sample points   : **0.00600764 sec**
 - Measured runtime for 100'000 sample pointes : **0.052242 sec**
 
-**Note**: Execution outputs are stored in *2a/output/*.
+**Note**: Execution outputs are stored in *Exercise2/2a/output/*.
 
 #### Exercise 2B-C:
 
 - Measured runtime for n=10'000 and m=100'000   : **0.190815 sec**
 
-**Note**: Exection output is stored in *2b-c/output/*
+**Note**: Exection output is stored in *Exercise2/2b-c/output/*
 
 #### Exercise 2D:
 

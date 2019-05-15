@@ -10,4 +10,6 @@ Here is how the execution time varies:
 
 ![alt text](exectime.png)
 
+We can observe that with 1000 random numbers the quantity of thread is not accelerating code execution but slowing it down. This is because for such a little amount of variables, the code is naturally very quickly executed and adding parallel instruction only adds load to the processors thus slowing them down.
+
 **Note**: Execution outputs are stored in *Exercise3/output/*.
