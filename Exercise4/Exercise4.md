@@ -30,3 +30,5 @@ How is the scaling affected ?
 The below shows the running time for different array sizes in a linear fashion, the depict better the reduction of speedup as we add more threads to run the program :
 
 ![alt text](4eg-lin.png)
+
+**Note**: Execution outputs are stored in *Exercise4/output/*.

@@ -15,8 +15,8 @@ In our case, *t<sub>old</sub>* is the runtime with **one** thread.
 **Note1** : The exercise asks to try combination of MPI processes between 1 & 20. However, we noticed that jobs submitted with more that 16 processes would not start;
 - status *PD* (pending) and node reason *Ressources*.
 - We assume that Alphacruncher doesn't allow us to go above 16 tasks in parallel.
-- It is probable that the session used (*intq*) is not capable to provide enough resources:
+- It is probable that the session used (*intq*) is not capable to provide enough resources as the output of the command `scontrol show part` shows ( `TotalCPUs=16` ) :
 
-![alt text](speed-up.png)
+![alt text](intq.png)
 
 **Note2**: Execution outputs are stored in *Exercise6/output/*.
