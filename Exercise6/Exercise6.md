@@ -19,7 +19,7 @@ We noticed that the session used (`intq`), features only 16 CPUs, it means that 
 
 ![alt text](intq.png)
 
-Additionally, looking at the `node` parameters, we could see that no only the session features only 16 CPUs, but each core is limited to **one** thread only.
+Additionally, looking at the `node` parameters, we could see that not only the session features only 16 CPUs, but each core is limited to **one** thread only.
 
 ![alt text](scontrolnode.png)
 
