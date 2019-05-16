@@ -21,6 +21,8 @@ For each array length we submitted the program with 1 to 8 threads. The executio
 
 ![alt text](4eg.png)
 
+**Important:** When running the code with an array size of 500'000'000, the output states that the `dot` product does not match the expected value. This seems to be caused by the precision of the `dot` product being greater that the computed control value. 
+
 #### Exercise 4H
 
 How is the scaling affected ?
